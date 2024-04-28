@@ -44,10 +44,10 @@ const Problem = () => {
     <section className="bg-neutral text-neutral-content bg-problem">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          75% of singles give up on love because they don't know where to start.
+          75% of singles give up on love because they don&apos;t know where to start.
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-        Life is messy, but love shouldn't be. Our Love AI Chatbot makes it easy to find YOUR perfect match
+        Life is messy, but love shouldn&apos;t be. Our Love AI Chatbot makes it easy to find YOUR perfect match
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">

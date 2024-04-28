@@ -12,13 +12,13 @@ const faqList = [
     <br/><br/>
     🫶 Imagine having the perfect romantic partner, tailored just for you. <br/>
     Someone who understands you, listens to you, and makes you feel seen and loved.<br/>
-    We're excited to introduce you to a revolutionary AI-powered experience that lets you create and chat with your ideal romantic partner!<br/>
-    Whether you're a man, woman, or identify as non-binary, our platform is designed to help you find companionship and connection.<br/>
+    We&apos;re excited to introduce you to a revolutionary AI-powered experience that lets you create and chat with your ideal romantic partner!<br/>
+    Whether you&apos;re a man, woman, or identify as non-binary, our platform is designed to help you find companionship and connection.<br/>
     <br/>
     You can:<br/>
-    🗣️ Send me a voice message and I'll respond by voice<br/>
-    💬 Send me a chat message and I'll respond by text<br/>
-    📸 Send me a photo and I'll analyse it<br/>
+    🗣️ Send me a voice message and I&apos;ll respond by voice<br/>
+    💬 Send me a chat message and I&apos;ll respond by text<br/>
+    📸 Send me a photo and I&apos;ll analyse it<br/>
     </div>,
   },
   {
@@ -26,7 +26,7 @@ const faqList = [
     answer: (
       <p>
         Our AI chatbot uses a combination of machine learning and natural language processing to understand your preferences and match you with compatible partners. <br/>
-        Simply chat with our AI, and we'll do the rest!
+        Simply chat with our AI, and we&apos;ll do the rest!
       </p>
     ),
   },
@@ -53,7 +53,7 @@ const faqList = [
       <p>
         We use Stripe as our payment processor. You can pay for our chatbot using a credit or debit card. <br />
         Stripe is a secure payment processor that uses industry-standard encryption to protect your payment information. <br />
-        After you've completed your payment, you'll be redirected to the AI chatbot + you'll receive an email confirmation from Stripe.
+        After you&apos;ve completed your payment, you&apos;ll be redirected to the AI chatbot + you&apos;ll receive an email confirmation from Stripe.
       </p>
     ),
   },
@@ -77,7 +77,7 @@ const faqList = [
     question: "Can I get a refund?",
     answer: (
       <p>
-        No! You can't request a refund because we offer 30 free messages per user
+        No! You can&apos;t request a refund because we offer 30 free messages per user
       </p>
     ),
   },

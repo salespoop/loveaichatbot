@@ -13,7 +13,7 @@ progress::-webkit-progress-value {
 }
 
 .bg-problem {
-  background-color: rgb(124 44 65);
+  background-color: rgb(68 55 67);
 }
 
 @layer base {

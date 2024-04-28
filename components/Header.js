@@ -7,6 +7,7 @@ import Image from "next/image";
 import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
+import telegram_image from "@/app/telegram-icon.png";
 
 const links = [
   {
@@ -101,7 +102,23 @@ const Header = () => {
         </div>
 
         {/* CTA on large screens */}
-        <div className="hidden lg:flex lg:justify-end lg:flex-1">{cta}</div>
+        <div className="hidden lg:flex lg:justify-end lg:flex-1">
+
+        <button className="btn btn-primary flex justify-center items-center">
+          <a href={config.telegram_channel} alt="Telegram Love AI Chatbot Channel" className="flex items-center">
+            Get Started
+            <span className="flex items-center justify-center ml-2">
+              <Image
+                src={telegram_image}
+                alt="AI Boyfriend/Girlfriend Chatbot"
+                width={30}
+                height={30}
+              />
+            </span>
+          </a>
+      </button>
+
+        </div>
       </nav>
 
       {/* Mobile menu, show/hide based on menu state. */}
@@ -168,7 +185,22 @@ const Header = () => {
             </div>
             <div className="divider"></div>
             {/* Your CTA on small screens */}
-            <div className="flex flex-col">{cta}</div>
+            <div className="flex flex-col">
+            <button className="btn btn-primary flex justify-center items-center">
+              <a href={config.telegram_channel} alt="Telegram Love AI Chatbot Channel" className="flex items-center">
+                Get Started
+                <span className="flex items-center justify-center ml-2">
+                  <Image
+                    src={telegram_image}
+                    alt="AI Boyfriend/Girlfriend Chatbot"
+                    width={30}
+                    height={30}
+                  />
+                </span>
+              </a>
+          </button>
+
+            </div>
           </div>
         </div>
       </div>

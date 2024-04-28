@@ -47,7 +47,7 @@ const Problem = () => {
           75% of singles give up on love because they don&apos;t know where to start.
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-        Life is messy, but love shouldn&apos;t be. Our Love AI Chatbot makes it easy to find YOUR perfect match
+        Life is messy, but love shouldn&apos;t be. Our Love AI Chatbot makes it easy to create YOUR perfect match.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">

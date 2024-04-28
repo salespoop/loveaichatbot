@@ -18,7 +18,7 @@ const CTA = () => {
             Create your romantic partner, chat, and fall in love. 
           </h2>
           <p className="text-lg opacity-80 mb-12 md:mb-16">
-            Don't waste time and money on dates that don't deserve it...
+            Don&apos;t waste time and money on dates that don&apos;t deserve it...
           </p>
 
           <button className="btn btn-primary btn-wide">

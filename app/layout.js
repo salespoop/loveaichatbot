@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-theme={config.colors.theme} className={font.className}>
       {config.domainName && (
         <head>
+          <script defer data-domain="loveaichatbot.com" src="https://poopup.co/js/script.js"></script>
           <PlausibleProvider domain={config.domainName} />
         </head>
       )}

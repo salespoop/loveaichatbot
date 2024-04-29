@@ -37,14 +37,14 @@ const Step = ({ emoji, text }) => {
 // The copy should NEVER mention your product. Instead, it should dig the emotional outcome of not fixing a problem.
 // For instance:
 // - Hero: "ShipFast helps developers launch startups fast"
-// - Problem Agitation: "Developers spend too much time adding features, get overwhelmed, and quit." (not about ShipFast at all)
+// - Problem Agitation: "Developers spend toacquo much time adding features, get overwhelmed, and quit." (not about ShipFast at all)
 // - Features: "ShipFast has user auth, Stripe, emails all set up for you"
 const Problem = () => {
   return (
     <section className="bg-neutral text-neutral-content bg-problem">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          75% of singles give up on love because they don&apos;t know where to start.
+          A majority of singles give up on love because they don&apos;t know where to start.
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
         Life is messy, but love shouldn&apos;t be. Our Love AI Chatbot makes it easy to create YOUR perfect match.

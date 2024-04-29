@@ -22,6 +22,18 @@ const faqList = [
     </div>,
   },
   {
+    question: "Why even having a relationship with an AI?",
+    answer: (
+      <p>
+        - Humans can be intimidating and judgemental<br />
+        + AI can be less intimidating because you know it's a computer not a real person, they can't judge<br />
+        <br />
+        - Humans have memories and can leak secrets<br />
+        + AI chats obviously can't be hacked. You can delete its memory when you want e.g. after a chat, making that risk close to zero.
+      </p>      
+    ),
+  },
+  {
     question: "How does the Love AI Chatbot work?",
     answer: (
       <p>
